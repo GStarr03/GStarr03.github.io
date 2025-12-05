@@ -28,7 +28,7 @@ body, html {
     font-weight: bold;  
     font-size: 1.3rem;
     text-decoration: none;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 .homeButton a {
@@ -56,7 +56,7 @@ body, html {
     background-size: cover;
     text-align: center;
     font-family:serif;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 /* Heading Text */
@@ -86,7 +86,7 @@ body, html {
     padding-bottom: 10px;
     text-align: center;
     font-size: 1.2rem;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 /*Homepage Description*/
@@ -136,7 +136,7 @@ body, html {
     background-size: cover;
     text-align: center;
     font-family:serif;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 /* About Us Heading Text */
@@ -222,7 +222,7 @@ body, html {
     background-size: cover;
     text-align: center;
     font-family:serif;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 /* Showcase Heading Text */
@@ -275,7 +275,7 @@ body, html {
     height: 100px;
     width: 100%;
     line-height: 0.8rem;
-    color: #FEFEFE;
+    color: #F8F8F8;
 }
 
 .footer h2 {
