@@ -234,6 +234,13 @@ body, html {
 
 .showcase h1 {
     padding-left: 2em;
+    font-size: 2.5em;
+    padding-top: 1.5em;
+}
+
+.showcaseDesc{
+    text-align: center;
+    font-size: 1.2em;
 }
 
 .showcaseSection {
@@ -312,7 +319,7 @@ body, html {
         padding-left: .3em;
         padding-right: .3em;
     }
-    /*About Me*/
+    /*------About Me------*/
     .main {
         grid-template-columns: auto;
         grid-template-rows: auto auto
@@ -331,6 +338,11 @@ body, html {
         padding-right: .5em;
     }
 
+    .localNavAbout li {
+        display: inline;
+        padding-inline: 1.2em;
+    }
+    /*------Showcase-----*/
     .showcaseItem {
         flex: 50%;
         max-width: 50%;
@@ -343,8 +355,7 @@ body, html {
         max-width: 100%;
     }
     .showcase h1 {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 0em;
         text-align: center;
     }
 }
