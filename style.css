@@ -1,0 +1,349 @@
+/* Style Sheet: style.css */
+body, html {
+    background-color: #fefefe;
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+/*Header*/
+.header {
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 55px;
+    width: 100%;
+    background-color: #141414;
+}
+
+/*Global Navigation Menu*/
+.navGlobal {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-top: 1rem;
+}
+.navGlobal a {
+    font-family:serif;
+    font-weight: bold;  
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #FEFEFE;
+}
+
+.homeButton a {
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
+.mainMenu a {
+    padding-inline: .5rem;
+    margin-right: 1rem;
+}
+
+.mainMenu a:hover {
+    color:  #476291;
+    background-color: #f5e7de;
+    border-radius: 12px;
+}
+
+/*------------------Home Page-------------------*/
+
+/*Header Background Image Home page*/
+.headerBG {
+    background-image: url("images/pexels-harold-vasquez-853421-2653362.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family:serif;
+    color: #FEFEFE;
+}
+
+/* Heading Text */
+.headerBG h1 {
+    font-size: 3rem;
+    padding-top: 60px;
+}
+.headerBG h2 {
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+/*Profile Picture */
+.pfpImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:auto;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+
+/*Header Caption*/
+.welcome {
+    background-color: #2D2D24;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #FEFEFE;
+}
+
+/*Homepage Description*/
+.homeDesc {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.homeDesc P {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+/*Homepage Content*/
+.homeCont {
+    background-color: #E6E6E6;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    width: 100%;
+}
+
+.homeCont table {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    border-spacing: 20px;
+    line-height: .8rem;
+}
+
+.homeCont img {
+    height:auto;
+    width: 100%;
+    border-radius: 15px;
+    border: .08em solid #141414;
+}
+/*------------------------------About Me--------------------------------*/
+
+/*Header Background About Me*/
+.headerBGAlt {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/14725367320_a1f16db5f4_o.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family:serif;
+    color: #FEFEFE;
+}
+
+/* About Us Heading Text */
+.headerBGAlt h1 {
+    font-size: 3rem;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+/*Image Credits*/
+.credit {
+    margin-left: 2em;
+    margin-top: .1em;
+}
+
+.credit a {
+    text-decoration: none;
+    color: #141414;
+}
+
+/*About Me Local Nav*/
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.localNavAbout ul {
+    list-style-type: none;
+}
+
+.localNavAbout {
+    text-align: right;
+    padding-top: 3.5em;
+    padding-right: 3em;
+}
+
+.localNavAbout a {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1.8em;
+    color: #2D2D24;
+}
+
+.localNavAbout a:hover {
+    text-decoration: underline;
+}
+.aboutCont{
+    max-width: 700px;
+}
+
+.aboutCont p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
+
+.aboutCont ul {
+    font-size: 1.15em;
+}
+.aboutCont li {
+    line-height: 1.2em;
+}
+
+.aboutCont h2 {
+    line-height: .5em;
+}
+
+.aboutCont h3 {
+    line-height: .5em;
+}
+
+.aboutCont h4 {
+    line-height: .1em;
+}
+
+/*------------------------------Showcase---------------------------------*/
+
+/*Header Background Showcase*/
+.headerBGAlt2 {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/USF2019.jpg");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family:serif;
+    color: #FEFEFE;
+}
+
+/* Showcase Heading Text */
+.headerBGAlt2 h1 {
+    font-size: 3rem;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.showcase h1 {
+    padding-left: 2em;
+}
+
+.showcaseSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: #E6E6E6;
+}
+
+.showcaseItem {
+    flex: 25%;
+    max-width: 25%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.showcaseItem img {
+    margin-top: 10px;
+    width: 75%;
+    border-radius: 15px;
+    border: .08em solid #141414;
+}
+
+/*--------------Footer-----------------*/
+.footer {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #476291;
+    padding-top: 20px;
+    height: 100px;
+    width: 100%;
+    line-height: 0.8rem;
+    color: #FEFEFE;
+}
+
+.footer h2 {
+    margin-left: 50px;
+}
+.footer p {
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+/*Social Media Links*/
+.socialLink {
+    text-align: right;
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+
+
+/*-------------Mobile View---------------*/
+@media screen and (max-width: 1200px) {
+    .homeButton {
+        visibility: hidden;
+        display: none;
+    }
+    .mainMenu {
+        text-align: center;
+    }
+    .mainMenu a {
+        margin-right: 0em;
+    }
+    .socialLink {
+        padding-right: .2rem;
+    }
+    .footer p {
+        margin-left: 20px;
+    }
+    .footer h2 {
+        margin-left: 20px;
+    }
+    .homeDesc {
+        padding-left: .3em;
+        padding-right: .3em;
+    }
+    /*About Me*/
+    .main {
+        grid-template-columns: auto;
+        grid-template-rows: auto auto
+    }
+    
+    .localNavAbout {
+        text-align: left;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .aboutCont {
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: .6em;
+        padding-right: .5em;
+    }
+
+    .showcaseItem {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .showcaseItem {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .showcase h1 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+}
