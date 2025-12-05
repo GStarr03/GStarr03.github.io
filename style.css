@@ -273,6 +273,11 @@ body, html {
     text-align: center;
 }
 
+.showcaseItem2 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #E6E6E6
+}
 .showcaseProjSec img {
     height: auto;
     max-width: 75%;
@@ -281,9 +286,10 @@ body, html {
 
 .showcaseProjSec p {
     font-size: 1.2em;
-    max-width: 800px;
+    max-width: 900px;
     text-align: left;
     text-indent: 2em;
+    line-height: 1.5em;
     margin-right: auto;
     margin-left: auto;
 }
