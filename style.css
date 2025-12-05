@@ -266,6 +266,40 @@ body, html {
     border: .08em solid #141414;
 }
 
+/*------------Showcase Projects------------*/
+.showcaseProjSec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.showcaseProjSec img {
+    height: auto;
+    max-width: 75%;
+    border: .08em solid #141414;
+}
+
+.showcaseProjSec p {
+    font-size: 1.2em;
+    max-width: 800px;
+    text-align: left;
+    text-indent: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.showcaseReturn {
+    padding-bottom: 2em;
+}
+.showcaseReturn a {
+    font-size: 1.5em;
+    padding-left: 4em;
+    text-decoration: none;
+}
+
+.showcaseReturn a:hover {
+    text-decoration: underline;
+}
 /*--------------Footer-----------------*/
 .footer {
     display: grid;
@@ -347,6 +381,11 @@ body, html {
         flex: 50%;
         max-width: 50%;
     }
+
+    .showcaseProjSec p {
+        padding-left: .5em;
+        padding-right: .3em;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -357,5 +396,8 @@ body, html {
     .showcase h1 {
         padding-left: 0em;
         text-align: center;
+    }
+    .showcaseReturn a {
+        padding-left: .5em;
     }
 }
