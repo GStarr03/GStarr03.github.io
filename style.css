@@ -281,7 +281,8 @@ body, html {
 .showcaseProjSec img {
     height: auto;
     max-width: 75%;
-    border: .08em solid #141414;
+    border-radius: 6px;
+    border: .2em solid #2D2D24;
 }
 
 .showcaseProjSec p {
@@ -301,6 +302,7 @@ body, html {
     font-size: 1.5em;
     padding-left: 4em;
     text-decoration: none;
+    color: #2D2D24;
 }
 
 .showcaseReturn a:hover {
@@ -312,7 +314,7 @@ body, html {
     grid-template-columns: auto auto;
     background-color: #476291;
     padding-top: 20px;
-    height: 100px;
+    height: auto;
     width: 100%;
     line-height: 0.8rem;
     color: #F8F8F8;
@@ -359,6 +361,7 @@ body, html {
         padding-left: .3em;
         padding-right: .3em;
     }
+
     /*------About Me------*/
     .main {
         grid-template-columns: auto;
